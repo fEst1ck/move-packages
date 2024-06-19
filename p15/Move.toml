@@ -1,0 +1,14 @@
+[package]
+name = "p15"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+[dev-addresses]
+
+[dependencies]
+p12 = { local = "../p13" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core", subdir = "aptos-move/framework/move-stdlib", rev = "mainnet" }
+
+[dev-dependencies]
