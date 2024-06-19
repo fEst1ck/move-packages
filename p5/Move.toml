@@ -1,0 +1,13 @@
+[package]
+name = "p4"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+[dev-addresses]
+
+[dev-dependencies]
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core", subdir = "aptos-move/framework/move-stdlib", rev = "mainnet" }
