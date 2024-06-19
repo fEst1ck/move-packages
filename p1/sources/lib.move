@@ -1,4 +1,4 @@
-module 0x42::p11 {
+module 0x42::p1 {
 	public fun foo() {
 		0x42::p2::foo();
 		0x42::p3::foo();
